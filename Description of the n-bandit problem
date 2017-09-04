@@ -1,0 +1,12 @@
+We are supposed to choose one option among n different options repeatedly
+After each choice we recieve a numerical reward which depends on your selection.
+Our objective is to maximize the total reward over some 1000 action selections
+This is somewhat similiar to a slot machine which are found in casinos.Here each action is like playing
+and each action is like pulling one of the levers.
+In this problem each reward has an expected value reward.
+One of the ways to tackle the problem is to choose the option having the highest reward in each action.
+This method is called the Greedy Action Method.
+But it may not always maximize our total reward.
+Instead we could explore the tree and choose accordingly.
+But we can't keep on exploring as we have to exploit the knowledge we have about the tree.
+This is the conflict between 'exploring' and 'exploitation'
